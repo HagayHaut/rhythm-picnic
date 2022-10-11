@@ -1,19 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import contact from "../assets/contact.png";
+import artists from "../assets/artists.png";
 
 function Navbar() {
   return (
-    <div className="flex space-x-4 bg-black text-white">
+    <div className="flex justify-between bg-black text-white">
       <Link to="/">
-        <img className="max-w-sm h-auto" src={logo} alt="logo" />
+        <img className="h-20 w-auto" src={logo} alt="logo" />
       </Link>
-      <Link to="/artists">
-        <p>Artists</p>
-      </Link>
-      <Link to="/contact">
-        <p>Contact</p>
-      </Link>
+      <div className="flex justify-around w-2/6">
+        <Link to="/artists">
+          <img className="h-10 w-auto" src={artists} alt="logo" />
+        </Link>
+        <Link to="/contact">
+          <img className="h-10 w-auto" src={contact} alt="logo" />
+        </Link>
+      </div>
     </div>
   );
 }
