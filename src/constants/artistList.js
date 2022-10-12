@@ -1,5 +1,6 @@
 export const artistList = [
   {
+    id: 1,
     name: "Cara Elizabeth",
     location: "Boulder, CO",
     tracks: [
@@ -18,6 +19,7 @@ export const artistList = [
     ],
   },
   {
+    id: 2,
     name: "Cody Berlin",
     location: "Lafayette, CO",
     tracks: [
@@ -28,6 +30,7 @@ export const artistList = [
     ],
   },
   {
+    id: 3,
     name: "Dante Robinson",
     location: "Philadelphia, PA",
     tracks: [
@@ -38,6 +41,7 @@ export const artistList = [
     ],
   },
   {
+    id: 4,
     name: "Ezra Glatt",
     location: "Portland, OR",
     tracks: [
@@ -52,6 +56,7 @@ export const artistList = [
     ],
   },
   {
+    id: 5,
     name: "Hagay Haut",
     location: "Philadelphia, PA",
     tracks: [
@@ -62,6 +67,7 @@ export const artistList = [
     ],
   },
   {
+    id: 6,
     name: "Henry & I",
     location: "New Orleans, LA",
     tracks: [
@@ -76,6 +82,7 @@ export const artistList = [
     ],
   },
   {
+    id: 7,
     name: "Jackson Hughes",
     location: "Durango, CO",
     tracks: [
@@ -102,6 +109,7 @@ export const artistList = [
     ],
   },
   {
+    id: 8,
     name: "Jake Rolf",
     location: "Philadelphia, PA",
     tracks: [
@@ -112,6 +120,7 @@ export const artistList = [
     ],
   },
   {
+    id: 9,
     name: "Maria Ansillo",
     location: "Philadelphia, PA",
     tracks: [
@@ -126,6 +135,7 @@ export const artistList = [
     ],
   },
   {
+    id: 10,
     name: "Planet Plow",
     location: "Santa Cruz, CA",
     tracks: [
@@ -136,6 +146,7 @@ export const artistList = [
     ],
   },
   {
+    id: 11,
     name: "Scott Jenkins",
     location: "Arcata, CA",
     tracks: [
@@ -150,6 +161,7 @@ export const artistList = [
     ],
   },
   {
+    id: 12,
     name: "Steel Blossoms",
     location: "Nashville, TN",
     tracks: [
@@ -164,6 +176,7 @@ export const artistList = [
     ],
   },
   {
+    id: 13,
     name: "Too Dogs",
     location: "Philadelphia, PA",
     tracks: [
@@ -174,6 +187,7 @@ export const artistList = [
     ],
   },
   {
+    id: 14,
     name: "Valentina Janie",
     location: "Philadelphia, PA",
     tracks: [
