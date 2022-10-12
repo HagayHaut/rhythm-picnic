@@ -5,8 +5,8 @@ function ArtistCard(props) {
 
   return (
     <div className="border hover:border-white p-1 m-1">
-      <p>{name}</p>
-      <p>{location}</p>
+      <p className="font-rhythm">{name}</p>
+      <p className="font-picnic">{location}</p>
     </div>
   );
 }

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'rhythm';
+    src: url(./assets/fonts/rhythm.ttf);
+}
+
+@font-face {
+    font-family: 'picnic';
+    src: url(./assets/fonts/picnic.ttf);
+}
+
+.App {
+    background-image: linear-gradient(rgba(255,255,255,0.84), rgba(255,255,255,0.84)), url(./assets/images/background.png);
+}
