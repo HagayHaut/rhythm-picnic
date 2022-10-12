@@ -1,7 +1,7 @@
 import React from "react";
 
 function ArtistCard(props) {
-  const { id, location, name, tracks } = props.artist;
+  const { location, name } = props.artist;
 
   return (
     <div className="border hover:border-white p-1 m-1">
